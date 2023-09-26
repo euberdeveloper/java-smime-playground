@@ -17,7 +17,7 @@ jobs:
 
       - name: Get version of the project
         id: project-version
-        uses: "euberdeveloper/ga-project-version@v2.2.1"
+        uses: "euberdeveloper/ga-project-version@main"
         with:
           package-manager: 'maven'
           version-prop: 'project.version'
