@@ -1,0 +1,21 @@
+From: sender@example.com
+To: alice@testcorp.com
+Subject: Example MIME message
+
+This is an example MIME message. It has a plain text body and an HTML body.
+
+--boundary123
+Content-Type: text/plain; charset=utf-8
+
+This is the plain text body of the message.
+
+--boundary123
+Content-Type: text/html; charset=utf-8
+
+<html>
+  <body>
+    <p>This is the HTML body of the message.</p>
+  </body>
+</html>
+
+--boundary123--
